@@ -1,0 +1,64 @@
+body {
+    background-image: url(../Imagens/background-line-art-126853-2204584-1896816.png);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto auto;
+}
+
+.mapa {
+    width: 90%;
+    display: block;
+    margin: 0
+}
+
+.endereco {
+    padding: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.form-control {
+    width: 70%;
+}
+
+.feedback {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+.redes img{
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+    margin-left: 55%;
+}
+
+p {
+   margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#av {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 30px;
+    margin-right: 36%;
+    margin-left: 35%;
+    font-size: 40px;
+}

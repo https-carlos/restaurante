@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="../styles/styles6.css" rel="stylesheet">
+    <title>Pedidos Online</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pedidos Online</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./sobre.html">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./reserva.html">Reserva</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./menu.html">Cardápio</a>
+          </li>
+        </ul>
+        <div class="redes">
+        <a href="https://www.facebook.com/Soho.Fortaleza/"><img src="../Imagens/bFacebook-logob-bBlack-iconb-FB-icon-2175.png" alt="Facebook"></a>
+        <a href="https://twitter.com/SohoFortaleza"><img src="../Imagens/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/Soho.Fortaleza/"><img src="../Imagens/twitter-logo-on-black-background.png" alt="Twitter"></a>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+
+    <h4>Áreas de Entrega:</h4>
+    <p>Pajuçara, Ponta Verde e Jatiúca</p><br><br>
+
+    <h2 id="promoc">Faça Seu Pedido:</h2>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Escolha a sua opção</option>
+        <option value="1">Sushi</option>
+        <option value="2">Sashimi</option>
+        <option value="3">Tempura</option>
+        <option value="4">Ramen</option>
+      </select><br><br>
+    <form>
+        <div class="form-group">
+            <label for="deliveryOptions">Escolha a opção de entrega:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="deliveryOption" id="retirada" value="retirada" checked>
+                <label class="form-check-label" for="retirada">
+                    Retirada
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="deliveryOption" id="entrega" value="entrega">
+                <label class="form-check-label" for="entrega">
+                    Entrega<br><br>
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="deliveryLocation">Escolha o local de entrega:</label>
+            <select class="form-control" id="deliveryLocation" name="deliveryLocation">
+                <option value="local1">Pajuçara - Maceió, Alagoas</option>
+                <option value="local2">Ponta Verde - Maceió, Alagoas</option>
+                <option value="local3">Jatiúca - Maceió, Alagoas</option>
+            </select><br><br>
+        </div>
+
+        <div class="form-group">
+            <label for="deliveryTime">Tempo estimado de entrega:</label><br>
+            <p>30 minutos.</p>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Fazer Pedido</button>
+    </form>
+</div>
+
+<footer>
+    <div class="grid">
+      <div class="endereco">
+        <h2>Endereço:</h2>
+        <p>Rua: Rua das Flores, 123</p>
+        <p>Bairro: Bairro Jardim Primavera</p>
+        <p>Cidade: Macéio</p>
+        <p>Estado: Alagoas</p>
+        <p>CEP: 12345-678</p>
+        <img class="mapa" src="../Imagens/Captura de Tela (220).png">        
+      </div>
+      <div class="contato">
+        <h2>Contato:</h2>
+        <p>Telefone: +55 (82) 9 8472-3821</p>
+        <p>Email: musashisushi@contato.com</p>
+      </div>
+      <div class="feedback">
+        <h2>feedback/Perguntas:</h2>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Endereço de email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Seu texto:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+        </div>
+      </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

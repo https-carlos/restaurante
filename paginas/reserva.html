@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="../styles/styles5.css" rel="stylesheet">
+    <title>Reserva</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Reserva</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./menu.html">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pedido.html">Pedidos Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sobre.html">Sobre</a>
+          </li>
+        </ul>
+        <div class="redes">
+        <a href="https://www.facebook.com/Soho.Fortaleza/"><img src="../Imagens/bFacebook-logob-bBlack-iconb-FB-icon-2175.png" alt="Facebook"></a>
+        <a href="https://twitter.com/SohoFortaleza"><img src="../Imagens/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/Soho.Fortaleza/"><img src="../Imagens/twitter-logo-on-black-background.png" alt="Twitter"></a>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">Formulário de Reserva</h1>
+    <form>
+
+        <div class="mb-3">
+            <label for="data" class="form-label">Data da Reserva</label>
+            <input type="date" class="form-control" id="data" required>
+        </div>
+        
+  
+        <div class="mb-3">
+            <label for="horario" class="form-label">Horário da Reserva</label>
+            <input type="time" class="form-control" id="horario" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="tamanhoGrupo" class="form-label">Tamanho do Grupo</label>
+            <input type="number" class="form-control" id="tamanhoGrupo" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="detalhesContato" class="form-label">Detalhes de Contato</label>
+            <textarea class="form-control" id="detalhesContato" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar Reserva</button>
+    </form>
+</div>
+
+<div class="politica"></div>
+  <div class="alert alert-primary" role="alert">
+    <h2>Política de Reservas</h2>
+        <p>Agradecemos por escolher reservar conosco. Aqui estão algumas informações importantes sobre nossa política de reservas:</p>
+        <ul>
+            <li>Cancelamento: É possível cancelar sua reserva até 24 horas antes do horário da reserva. Cancelamentos feitos após esse período estarão sujeitos a uma taxa de cancelamento.</li>
+            <li>Confirmação: Após enviar sua reserva, você receberá uma confirmação por e-mail dentro de 24 horas.</li>
+        </ul>
+        <p>Por favor, leia nossa política completa de reservas antes de fazer uma reserva.</p>
+  </div>
+
+
+<footer>
+    <div class="grid">
+      <div class="endereco">
+        <h2>Endereço:</h2>
+        <p>Rua: Rua das Flores, 123</p>
+        <p>Bairro: Bairro Jardim Primavera</p>
+        <p>Cidade: Macéio</p>
+        <p>Estado: Alagoas</p>
+        <p>CEP: 12345-678</p>
+        <img class="mapa" src="../Imagens/Captura de Tela (220).png">        
+      </div>
+      <div class="contato">
+        <h2>Contato:</h2>
+        <p>Telefone: +55 (82) 9 8472-3821</p>
+        <p>Email: musashisushi@contato.com</p>
+      </div>
+      <div class="feedback">
+        <h2>feedback/Perguntas:</h2>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Endereço de email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Seu texto:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+        </div>
+      </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
